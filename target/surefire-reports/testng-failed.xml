@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" junit="true" name="Failed suite [Surefire suite]" verbose="0">
+  <test junit="true" thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.junit.runner.Description">
+        <methods>
+          <include name="testLoginEndpoint"/>
+          <include name="testWhoAmIEndpoint"/>
+        </methods>
+      </class> <!-- org.junit.runner.Description -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.foodics.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.355 s <<< FAILURE! - in com.foodics.AppTest
+testLoginEndpoint on testLoginEndpoint(com.foodics.AppTest)(com.foodics.AppTest)  Time elapsed: 2.793 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <302>.
+
+	at com.foodics.AppTest.testLoginEndpoint(AppTest.java:27)
+
+testWhoAmIEndpoint on testWhoAmIEndpoint(com.foodics.AppTest)(com.foodics.AppTest)  Time elapsed: 1.925 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path username doesn't match.
+Expected: your_expected_username
+  Actual: <nullnullnullnullFoodics | AdminnullnullnullnullnullnullLoginnullnullEmail AddressnullPasswordnullLoginnullvar recaptchSiteKey = '6LcwE9seAAAAACR4Hzf4UFNycX8Qo9o2ScwSD93s'
+        grecaptcha.ready(function() {
+            grecaptcha.execute(recaptchSiteKey, {action: 'homepage'}).then(function(token) {
+                document.getElementById('recaptcha_token').value = token;
+                document.getElementById("submit-button").disabled = false;
+            });
+        });
+        >
+
+	at com.foodics.AppTest.testWhoAmIEndpoint(AppTest.java:45)
+
